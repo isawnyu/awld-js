@@ -13,7 +13,7 @@ define(['jquery'], function($) {
                 names = getText('head persName');
             return {
                 names: names,
-                name: names.join(', or '),
+		name: typeof names == 'string'? names : names.join(', or ') ,
                 description: getText('p')
             };
         }

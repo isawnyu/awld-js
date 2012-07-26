@@ -1,6 +1,6 @@
 define('registry', {
     'http://arachne.uni-koeln.de/item/': 'arachne.uni-koeln.de/arachne.uni-koeln.de',
-    // 'http://arachne.uni-koeln.de/entity/': 'arachne.uni-koeln.de/arachne.uni-koeln.de',
+    // redirects done in such a way that awld.js won't work 'http://arachne.uni-koeln.de/entity/': 'arachne.uni-koeln.de/arachne.uni-koeln.de',
     'http://data.perseus.org/citations/urn:cts': 'perseus/urn-cts',
     'http://data.perseus.org/people/smith': 'perseus/smith',
     'http://ecatalogue.art.yale.edu/detail.htm?objectId=': 'ecatalogue.art.yale.edu/ecatalogue.art.yale.edu',
@@ -9,6 +9,7 @@ define('registry', {
     'http://finds.org.uk/database/artefacts': 'finds.org.uk/finds.org.uk',
     'http://fr.wikipedia.org/wiki': 'wikipedia/page',
     'http://lccn.loc.gov': 'loc/lccn',
+    // xhtml too invalid to work 'http://metmuseum.org/Collections/': 'metmuseum.org/metmuseum.org.js',
     'http://nomisma.org/id': 'nomisma/nomisma',
     'http://numismatics.org/collection': 'numismatics.org/numismatics.org',
     'http://opencontext.org': 'opencontext/opencontext',
