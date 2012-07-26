@@ -11,9 +11,10 @@ define(['jquery'], function($) {
         parseData: function(xml) {
             var getText = awld.accessor(xml),
                 names = getText('head persName');
+            var name = typeof names === 'string'? names : names.join(', or ');
+
             return {
-                names: names,
-		name: typeof names == 'string'? names : names.join(', or ') ,
+                name: name ,
                 description: getText('p')
             };
         }
