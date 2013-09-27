@@ -8,6 +8,7 @@ define('registry', {
     'http://eol.org/pages': 'eol/eol',
     'http://finds.org.uk/database/artefacts': 'finds.org.uk/finds.org.uk',
     'http://fr.wikipedia.org/wiki': 'wikipedia/page',
+    'http://www.geonames.org': 'geonames/place',
     'http://lccn.loc.gov': 'loc/lccn',
     // xhtml too invalid to work 'http://metmuseum.org/Collections/': 'metmuseum.org/metmuseum.org.js',
     'http://nomisma.org/id': 'nomisma/nomisma',
