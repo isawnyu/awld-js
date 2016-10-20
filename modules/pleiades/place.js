@@ -5,7 +5,7 @@ define(function() {
         name: 'Pleiades Places',
         type: 'place',
         toDataUri: function(uri) {
-            return uri + '/json';
+            return uri.replace(/^http:/, 'https:') + '/json';
         },
         corsEnabled: true,
         // add name to data
